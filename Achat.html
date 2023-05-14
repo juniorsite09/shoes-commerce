@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/13fa55244c.js" crossorigin="anonymous"></script>
+    <title>Achat</title>
+</head>
+<body>
+    <section id="contact">
+        <h1 class="section_title"><center> Contact</center></h1>
+        <div class="localisation_contact_div">
+            <div class="localisation">
+                <h3>Notre adresse</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.1397522142115!2d13.566806500000002!3d7.3381984000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10f002a1b3347f77%3A0xb76e1e45f85da88c!2zVW5pdmVyc2l0w6kgRGUgTmdhb3VuZMOpcsOp!5e0!3m2!1sfr!2scm!4v1683997937100!5m2!1sfr!2scm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form_contact">
+                <h3>Formulaire d'achat</h3>
+                <form action="#">
+                    <input type="text" placeholder=" votre Nom">
+                    <input type="text" placeholder="Numerro telephonique">
+                    <input type="email" placeholder=" votre Adresse mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Achat du produit"></textarea>
+                    <button onclick="Envoyer('Vos informations ont bel et bien été transmises, nous vous contacterons dans quelques temps pour la livraison Merci!')">Envoyer</button>
+                    <script>
+                        function Envoyer(msg){
+                            alert(msg)
+                        }
+                    </script>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
